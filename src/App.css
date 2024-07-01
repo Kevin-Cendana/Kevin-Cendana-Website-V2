@@ -1,0 +1,31 @@
+* {
+  background-color: #19014c;
+  color: white;
+  overflow: hidden;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .lofi-video-wrapper {
+  height: 100%;
+  width: 100%;
+  border-radius: 4%;
+}
+
+.home .lofi-video {
+  height: 100%;
+  max-width: 160%;
+  /* margin-left: calc(clamp(-60px, -50vw, 100px)); */
+  transform: translate(calc(-1 * ((clamp(60px, 10vw, -190px))))); 
+}
